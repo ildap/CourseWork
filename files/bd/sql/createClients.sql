@@ -1,0 +1,6 @@
+create table clients(
+  id INT PRIMARY KEY AUTO_INCREMENT UNIQUE,
+  fullname VARCHAR(50) CHAR SET UTF8 NOT NULL ,
+  phone INT NOT NULL ,
+  mail VARCHAR(50) CHAR SET UTF8 NOT NULL
+)

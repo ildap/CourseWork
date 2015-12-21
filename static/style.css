@@ -1,0 +1,142 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+p {
+    overflow: hidden;
+    text-align: justify;
+}
+
+.left {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     box-shadow: 5px 0 5px -5px #333;
+     box-shadow: 5px 0px 5px -5px #333 ;*/
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #9d9d9d;
+    margin:auto auto auto auto;
+    z-index: -1;
+
+}
+
+.color {
+    background-color: #efefef;
+}
+
+.right {
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 800px;
+    padding: 2px;
+    padding-right: 10px;
+    float:left;
+    position: fixed;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.center{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding:50px;
+    background-color: white;
+}
+
+.menu1 {
+
+    min-height: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+
+    padding-left: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.menu {
+    /* padding-top: 20px;*/
+
+    font-size: medium;
+    padding-left: 30px;
+
+}
+
+.content {
+    width: 800px;
+    margin: 10px auto 0px auto;
+
+
+}
+.content2 {
+    width: 1100px;
+    margin: 10px auto 0px auto;
+
+
+}
+
+.mEl {
+
+    border-left: 1px solid #b1b1b1;
+    /* margin: 5px 0px 0px 0px;*/
+    float: left;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.mEl2 {
+
+    float: right;
+    margin-right: 10px;
+}
+.printer{
+    display: block;
+    margin: 25px 25px 25px 25px;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+
+}
+
+.img{
+    display: block;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto auto auto auto;
+    padding-top: 50px;
+}
+.img2{
+    display: block;
+    width:200px;
+    float:left;
+}
+.tableblock{
+    padding-top: 50px;
+    padding-left:250px;
+
+
+}
+.fqw{
+    min-height: 300px;
+}
+table{
+
+}
+.brend{
+    float:left;
+    font-size: 18pt;
+    margin: 10px 25px auto auto;
+
+}
+.name{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:Lucida Grande, sans-serif;
+    font-size: 15pt;
+}
